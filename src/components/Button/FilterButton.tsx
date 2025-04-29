@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 type FilterType = "All" | "Active" | "Inactive";
 
 interface FilterButtonProps {

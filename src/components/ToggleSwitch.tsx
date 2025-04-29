@@ -6,12 +6,6 @@ interface ToggleProps {
 }
 
 const ToggleSwitch: React.FC<ToggleProps> = ({ active, onToggle }) => {
-  const [checked, setChecked] = useState<boolean>(false);
-
-  const handleToggle = () => {
-    setChecked(!checked);
-  };
-
   return (
     <>
       <style>
