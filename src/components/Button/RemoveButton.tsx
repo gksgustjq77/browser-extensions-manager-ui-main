@@ -39,6 +39,7 @@ const RemoveButton: React.FC<ButtonProps> = ({ title, onDelete }) => {
         `}
       </style>
       <button
+        aria-label={title || "Remove"}
         className={`border border-[hsl(226,11%,37%)] p-[5px_15px] rounded-[20px] button-ring ${
           checked
             ? "bg-[hsl(226,11%,37%)] focus:ring-2 focus:ring-red-500 focus:ring-offset-2"

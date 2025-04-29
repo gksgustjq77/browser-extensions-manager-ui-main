@@ -30,6 +30,7 @@ const FilterButton: React.FC<FilterButtonProps> = ({
         `}
       </style>
       <button
+        aria-label={title || ""}
         className={`border border-[hsl(226,11%,37%)] p-[5px_15px] rounded-[20px] filter-button ${
           isSelected
             ? "bg-red-500 focus:ring-2 focus:ring-red-500 focus:ring-offset-2"

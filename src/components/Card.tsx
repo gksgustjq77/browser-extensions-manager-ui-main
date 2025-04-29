@@ -18,7 +18,7 @@ const Card: React.FC<CardProps> = ({ cardInfo, onToggle, onDelete }) => {
     <>
       <div className="bg-[hsl(226,25%,17%)] p-[15px] rounded-[15px] border border-[hsl(226,11%,37%)] flex flex-col">
         <div className="flex items-start gap-5">
-          <img src={cardInfo.logo}></img>
+          <img src={cardInfo.logo} alt={cardInfo.name}></img>
           <div className="flex flex-col text-left">
             <div className="font-bold text-[1em] break-all">
               {cardInfo.name}
