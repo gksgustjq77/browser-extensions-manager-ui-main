@@ -14,6 +14,7 @@ const ToggleSwitch: React.FC<ToggleProps> = ({ active, onToggle }) => {
         `}
       </style>
       <button
+        aria-label={"toggle"}
         type="button"
         onClick={onToggle}
         className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors duration-300 border-none toggle-button ${
