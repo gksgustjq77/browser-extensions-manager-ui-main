@@ -2,6 +2,10 @@
 
 ## 📸 Preview
 
+## Live site
+
+- **Vercal**: https://browser-extensions-manager-ui-main-hphb.vercel.app/
+
 ## PC 💻
 
 ![](./src/assets/screenshot/pc-lg.png)
